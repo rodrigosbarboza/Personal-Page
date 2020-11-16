@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(14, 14, 14);
+  font-size: 16px;
+  font-family: 'Comfortaa-SemiBold', sans-serif;
+}
+
+.container-page {
+  height: 690px;
+  padding: 10px;
+}
+
+ul,
+li {
+  text-align: center;
+  color: white;
+  list-style-type: none;
+}
+
+.experiencia {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.info p {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 20px;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 20px;
+  text-align: center;
+}
+
+h4 {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 20px;
+  text-align: center;
+}
+
+p {
+  color: rgb(223, 219, 219);
+}
+
+/* tabela */
+table {
+  color: rgb(255, 255, 255);
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+table,
+tr,
+th,
+td {
+  /* padding: 2px; */
+  border: none;
+}
+
+th {
+  font-weight: bold;
+  text-align: center;
+}
+
+.identificacao {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.personal-data {
+  text-align: center;
+}
+
+.conteudo {
+  margin: 50px 400px;
+}
+
+/* Imagem */
+img {
+  border-radius: 50%;
+}
+
+/* Formatação do grid */
+.grid-index {
+  display: grid;
+  justify-content: center;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-item {
+  justify-self: center;
+  padding: 10px;
+}
+
+.item1{
+  text-align: center;
+  grid-column: 1 / span 2;
+}
+
+.item4{
+  text-align: center;
+  grid-column: 1 / span 2;
+}

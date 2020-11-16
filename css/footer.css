@@ -1,0 +1,36 @@
+/* Links das redes sociais */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  height: 180px;
+  background: #f3f3f3;
+}
+
+.container-footer {
+  display: flex;
+  align-items: center;
+}
+
+.copuright {
+  margin-right: 300px;
+}
+
+.links img {
+  width: 20px;
+}
+
+.links a {
+  color: rgb(155, 155, 155);
+}
+
+.links a:hover {
+  color: rgb(109, 109, 109);
+}
+
+footer p {
+  color: rgb(99, 99, 99);
+  text-align: center;
+}

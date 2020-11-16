@@ -1,0 +1,19 @@
+/* Formulário */
+.body {
+  margin: auto;
+  /* text-align: center; */
+  width: 400px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+
+textarea {
+  width: 600px;
+  height: 100px;
+}
+
+.form-info {
+  text-align: center;
+  align-items: center;
+}
